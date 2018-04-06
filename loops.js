@@ -13,7 +13,7 @@ function whileLoop (num){
   while (num > 0) {
     console.log(--num);
   }
-  return "done" 
+  return "done"
 }
 
 function doWhileLoop (array){
@@ -22,7 +22,7 @@ function doWhileLoop (array){
   }
 
   do {
-    array.pop(); 
-  } while (array.length > 0 && maybeTrue()); 
+    array.pop();
+  } while (array.length > 0 && maybeTrue());
   return array
 }
