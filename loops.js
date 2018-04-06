@@ -6,12 +6,12 @@ function forLoop (array){
       array.push("I am `${i}` strange loops");
     }
   }
-  return array; 
+  return array;
 }
 
 function whileLoop (num){
   while (num > 0) {
-    console.log(--num); 
+    console.log(--num);
   }
   return "done" 
 }
